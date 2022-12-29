@@ -1,0 +1,6 @@
+﻿  turing.c
+D:\Program Files\source\repos\TuringMachineEmulator\turing.c(179,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Program Files\source\repos\TuringMachineEmulator\turing.c(209,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Program Files\source\repos\TuringMachineEmulator\turing.c(281,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Program Files\source\repos\TuringMachineEmulator\turing.c(363,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  TuringMachineEmulator.vcxproj -> D:\Program Files\source\repos\TuringMachineEmulator\x64\Debug\TuringMachineEmulator.exe
