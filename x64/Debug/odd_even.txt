@@ -1,0 +1,14 @@
+4
+q0 q1 CLEAR STOP
+q0 STOP
+9
+q0 0 -> q0 0 R
+q0 1 -> q1 1 R
+q0 _ -> CLEAR 0 L
+q1 0 -> q1 0 R
+q1 1 -> q0 1 R
+q1 _ -> CLEAR 1 L
+CLEAR 0 -> CLEAR _ L
+CLEAR 1 -> CLEAR _ L
+CLEAR _ -> STOP _ S
+101010

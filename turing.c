@@ -340,7 +340,7 @@ void run_turing_machine(TuringMachine* machine, char** tape_ref)
 			print_tape_step_debug(machine, *tape_ref);
 		}
 
-		if (stepsCount == 10000)
+		if (stepsCount == 100000)
 		{
 			printf("MADE %d transitions\n", stepsCount);
 			print_tape_state(*tape_ref, machine);

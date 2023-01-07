@@ -19,11 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="pow3.t" />
-    <None Include="simple.t" />
-    <None Include="strcmp.t" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="errors.c" />
     <ClCompile Include="integer-input.c" />
     <ClCompile Include="turing.c" />

@@ -203,8 +203,11 @@ char* read_line()
 		}
 
 		if ((*line++ = c) == '\n')
+		{
+			--line;
 			break;
+		}
 	}
-	*(line-1) = '\0';
+	*line = '\0';
 	return linep;
 }
